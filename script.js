@@ -204,5 +204,99 @@ Cada uno de estos tipos de condicionales te ayudará a controlar el flujo de eje
 
 */
 
-//1
+/*1 Condicional if
 
+let dia = prompt("Ingresa un día de la semana: (Por favor introducir todo en minusculas)");
+if (dia === "lunes") {
+    console.log("Es el primer día de la semana.");
+} else if (dia == "martes") {
+    console.log("Es el segundo día de la semana.");
+} else if (dia == "miércoles") {
+    console.log("Es el tercer día de la semana.");
+}   else if (dia == "jueves") {
+    console.log("Es el cuarto día de la semana.");
+}   else if (dia == "viernes") {
+    console.log("Es el quinto día de la semana y proximamente finde.");
+}  else if (dia == "sábado") {
+    console.log("Es el sexto día de la semana.");
+}  else if (dia == "domingo") {
+    console.log("Es el séptimo día de la semana.");
+}
+
+/*2 Condicional if...else
+
+if (dia === "viernes") {
+    alert("Te felicito, ya es viernes");
+    
+} else {
+    console.log("No es viernes");
+}
+*/
+/*3 Condicional if...else if...else
+let auto = prompt('Tienes auto? (si/no)');
+if (auto === "si") {
+    console.log("Tienes auto");
+    alert('¿De que color?')
+    if (auto === "rojo") {
+        console.log("Amo el color rojo");
+    } else{
+        console.log("Que lindo auto tienes");
+    }
+}   
+*/
+/* 4 No se que pasa que no me funciona el switch
+prompt('¿Que moto tenes? (Yamaha, Honda o Africa Twin)');
+let marcaMoto;
+switch (marcaMoto) {
+    case "Yamaha" || "yamaha" || "YAMAHA":
+        console.log("Muy linda moto");
+        break;
+    case "Honda" || "honda"|| "HONDA":
+        console.log("Son de las mas vendidas");
+        break;
+    case "Africa Twin" || "africa twin" | "africatwin" | 'AFRICA TWIN':
+        console.log("Es de primera ");
+        break;
+    default:
+        console.log("No tengo información de esa moto");
+}
+*/
+
+//5 Operador ternario
+/**
+
+let soymillonario = 1000000;
+let resultado = prompt('Ingresa tu capital') 
+if (resultado >= soymillonario ){
+    console.log("Eres millonario");
+} else {
+    console.log("No eres millonario");
+} */
+
+
+// 7
+/*
+let edadPermitida >= 17;
+let (edadConducir = prompt('¿Cuantos años tienes?'));
+if (edadConducir >= 17){
+    console.log("Puedes sacar el permiso para conducir");
+} else {console.log("No puedes sacar el permiso para conducir");
+}  elseif (edadConducir > 12){ 
+    console.log("Puedes conducir un karting, porque para un auto estas loco");
+}
+*/
+
+/*
+### 7. **Condicional `if` con operadores de comparación**
+
+JavaScript proporciona varios operadores de comparación que son muy útiles en las condiciones. Algunos de los más comunes son:
+
+- **`==`**: Igual a (compara valores, sin considerar tipo de datos).
+- **`===`**: Igual a (compara valores y tipo de datos).
+- **`!=`**: Diferente a (compara valores).
+- **`!==`**: Diferente a (compara valores y tipo de datos).
+- **`>`**: Mayor que.
+- **`<`**: Menor que.
+- **`>=`**: Mayor o igual que.
+- **`<=`**: Menor o igual que.
+*/
